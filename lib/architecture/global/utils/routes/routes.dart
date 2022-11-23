@@ -4,5 +4,5 @@ import '../../../moduls/home/home_view.dart';
 import '../../bindings/home/home_binding.dart';
 
 List<GetPage<dynamic>> secondRoutes = [
-  GetPage(name: '/', page: () => const HomeView(), binding: HomeBinding()),
+  GetPage(name: '/', page: () => HomeView(), binding: HomeBinding()),
 ];
